@@ -7,7 +7,7 @@ function welcome() {
   var userName = readlineSync.question("Hey , What's your name? ");
 
   console.log("Welcome " + userName + " to DO YOU KNOW Mansuri?");
-}
+} 
 
 welcome();
 
