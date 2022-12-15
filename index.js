@@ -28,7 +28,7 @@ var questions = [
 
 
 function playGame() {
-  for (let i = 0; i < questions.length; i++) {
+  for (var i = 0; i < questions.length; i++) {
     var currentQuestion = questions[i];
     var userAnswer = readlineSync.question(currentQuestion.question);
     if (currentQuestion.answer == userAnswer) {
@@ -42,4 +42,4 @@ function playGame() {
 
 playGame();
 
-console.log("Ya'y Finally your Score is :" + score);
+console.log("Finally your Score is : " + score);
